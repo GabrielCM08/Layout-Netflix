@@ -4,97 +4,125 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/styled.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/styled.css" />
     <title>Netflix</title>
   </head>
 
   <body>
     <header class="cabecalho">
-      <figure class="cabecalho__logo">
-        <img src="./assets/img/logo.png" alt="logo Netflix" />
-        <figcaption>Logo da marca Netflix</figcaption>
-      </figure>
+      <div class="container">
+        <figure class="cabecalho__logo">
+          <img src="./assets/img/logo.png" alt="logo Netflix" />
+          <figcaption>Logo da marca Netflix</figcaption>
+        </figure>
 
-      <!-- NAVBAR ESQUERDA -->
-      <nav class="cabecalho__menu">
-        <ul>
-          <li>
-            <a href="#">Início</a>
-          </li>
+        <!-- NAVBAR ESQUERDA -->
+        <nav class="cabecalho__menu">
+          <ul>
+            <li>
+              <a href="#">Início</a>
+            </li>
 
-          <li>
-            <a href="#">Séries</a>
-          </li>
+            <li>
+              <a href="#">Séries</a>
+            </li>
 
-          <li>
-            <a href="#">Filmes</a>
-          </li>
+            <li>
+              <a href="#">Filmes</a>
+            </li>
 
-          <li>
-            <a href="#">Bombando</a>
-          </li>
+            <li>
+              <a href="#">Bombando</a>
+            </li>
 
-          <li>
-            <a href="#">Minha lista</a>
-          </li>
+            <li>
+              <a href="#">Minha lista</a>
+            </li>
 
-          <li>
-            <a href="#">Assista de novo</a>
-          </li>
-        </ul>
-      </nav>
+            <li>
+              <a href="#">Assista de novo</a>
+            </li>
+          </ul>
+        </nav>
 
-      <!--NAVBAR DIREITA -->
-      <div class="cabecalho__menuConfiguracao">
-        <ul>
-          <li>
-            <a href="#">pesquisa</a>
-          </li>
+        <!--NAVBAR DIREITA -->
+        <div class="cabecalho__menuConfiguracao">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./assets/img/pesquisa.png" alt="Imagem pesquisa"
+              /></a>
+            </li>
 
-          <li>
-            <a href="#">INFANTIL</a>
-          </li>
+            <li>
+              <a href="#">INFANTIL</a>
+            </li>
 
-          <li>
-            <a href="#">Bônus</a>
-          </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/img/presente.png" alt="Imagem presente"
+              /></a>
+            </li>
 
-          <li>
-            <a href="#">Notificação</a>
-          </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/img/notificacao.png"
+                  alt="Imagem notificação"
+              /></a>
+            </li>
 
-          <li>
-            <a href="#">Escolha do usuário</a>
-          </li>
-        </ul>
+            <li>
+              <a href="#"
+                ><img src="assets/img/ProfileIMG.png" alt="Imagem Perfil"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
       <!-- SEÇÃO DESTAQUE -->
       <section class="secaoDestaque">
-        <figure class="secaoDestaque__imagemDestaque">
-          <img src="./assets/img/destaque.png" alt="Nome do filme" />
-          <figcaption>Nome do Filme</figcaption>
-        </figure>
+        <div class="container">
+          <figure class="secaoDestaque__imagemDestaque">
+            <img src="./assets/img/destaque.png" alt="Nome do filme" />
+            <figcaption>Nome do Filme</figcaption>
+          </figure>
 
-        <article class="secaoDestaque__descricaoDestaque">
-          <h1>Stranger Things</h1>
-          <p>
-            Quando um garoto desaparece, a cidade toda participa nas buscas. Mas
-            o que encontram são segredos, forças sobrenaturais e uma menina.
-          </p>
-        </article>
+          <article class="secaoDestaque__descricaoDestaque">
+            <h1>
+              <img src="assets/img/titulo-destaque.png" alt="Titulo do filme" />
+            </h1>
+            <p>
+              Quando um garoto desaparece, a cidade toda participa nas buscas.
+              Mas o que encontram são segredos, forças sobrenaturais e uma
+              menina.
+            </p>
+          </article>
 
-        <!-- LINKS DE NAVEGAÇÃO -->
-        <div class="secaoDestaque__navegacaoDestaque">
-          <a href="#"
-            ><img src="./assets/img/assistir.png" alt="Icon play" />Assistir</a
-          >
-          <a href="#" class="secaoDestaque__navegacaoDestaque--transparente"
-            ><img src="./assets/img/info.png" alt="Icon play" />Mais
-            informações</a
-          >
+          <!-- LINKS DE NAVEGAÇÃO -->
+          <div class="secaoDestaque__navegacaoDestaque">
+            <a href="#"
+              ><img
+                src="./assets/img/assistir.png"
+                alt="Icon play"
+              />Assistir</a
+            >
+            <a href="#" class="secaoDestaque__navegacaoDestaque--transparente"
+              ><img src="./assets/img/info.png" alt="Icon play" />Mais
+              informações</a
+            >
+          </div>
         </div>
       </section>
 
@@ -370,68 +398,91 @@
     </main>
 
     <footer class="rodape">
-      <!-- REDES SOCIAIS -->
-      <div class="rodape_midiasSociais">
-        <ul>
-          <li>
-            <a href="#" target="_blank">
-              <img src="./assets/img/fb.png" alt="" />
-            </a>
-          </li>
+      <div class="container">
+        <!-- REDES SOCIAIS -->
+        <div class="rodape_midiasSociais">
+          <ul>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/img/fb.png" alt="" />
+              </a>
+            </li>
 
-          <li>
-            <a href="#" target="_blank">
-              <img src="./assets/img/ig.png" alt="" />
-            </a>
-          </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/img/ig.png" alt="" />
+              </a>
+            </li>
 
-          <li>
-            <a href="#" target="_blank">
-              <img src="./assets/img/tt.png" alt="" />
-            </a>
-          </li>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/img/tt.png" alt="" />
+              </a>
+            </li>
 
-          <li>
-            <a href="#" target="_blank">
-              <img src="./assets/img/yt.png" alt="" />
-            </a>
-          </li>
-        </ul>
+            <li>
+              <a href="#" target="_blank">
+                <img src="./assets/img/yt.png" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- LINKS RODAPE -->
+        <nav class="rodape__menuNavegacao">
+          <ul>
+            <li>
+              <a href="#">Idioma e legendas</a>
+            </li>
+            <li>
+              <a href="#">Imprensa</a>
+            </li>
+            <li>
+              <a href="#">Privacidade</a>
+            </li>
+            <li>
+              <a href="#">Entre em contato</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Audiodescrição</a>
+            </li>
+            <li>
+              <a href="#">Relações com investidores</a>
+            </li>
+            <li>
+              <a href="#">Avisos legais</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Centro de ajuda</a>
+            </li>
+            <li>
+              <a href="#">Carreiras</a>
+            </li>
+            <li>
+              <a href="#">Preferências de cookies</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#">Cartão pré-pago</a>
+            </li>
+            <li>
+              <a href="#">Termos de uso</a>
+            </li>
+            <li>
+              <a href="#">Informações corporativas</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#" class="rodape__linkCodigo">Código de serviço</a>
+
+        <p>© 1997-2022 NetFlix, Inc. {i-062d573a0ee0992422342}</p>
       </div>
-
-      <!-- LINKS RODAPE -->
-      <nav class="rodape__menuNavegacao">
-        <ul>
-          <li>
-            <a href="#">Idioma e legendas</a>
-            <a href="#">Imprensa</a>
-            <a href="#">Privacidade</a>
-            <a href="#">Entre em contato</a>
-          </li>
-
-          <li>
-            <a href="#">Audiodescrição</a>
-            <a href="#">Relações com investidores</a>
-            <a href="#">Avisos legais</a>
-          </li>
-
-          <li>
-            <a href="#">Centro de ajuda</a>
-            <a href="#">Carreiras</a>
-            <a href="#">Preferências de cookies</a>
-          </li>
-
-          <li>
-            <a href="#">Cartão pré-pago</a>
-            <a href="#">Termos de uso</a>
-            <a href="#">Informações corporativas</a>
-          </li>
-        </ul>
-      </nav>
-
-      <a href="#" class="rodape__linkCodigo">Código de serviço</a>
-
-      <p>© 1997-2022 NetFlix, Inc. {i-062d573a0ee0992422342}</p>
     </footer>
   </body>
 </html>
