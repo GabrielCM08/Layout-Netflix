@@ -67,8 +67,7 @@ body {
 .cabecalho .cabecalho__logo {
   text-align: center;
 }
-.cabecalho .cabecalho__logo img {
-}
+.cabecalho .cabecalho__logo img {}
 
 /*ESTILO DO MENU*/
 .cabecalho .cabecalho__menu,
@@ -76,24 +75,16 @@ body {
   display: none;
 }
 
-.cabecalho .cabecalho__menu {
-}
-.cabecalho .cabecalho__menu ul {
-}
-.cabecalho .cabecalho__menu li {
-}
-.cabecalho .cabecalho__menu a {
-}
+.cabecalho .cabecalho__menu {}
+.cabecalho .cabecalho__menu ul {}
+.cabecalho .cabecalho__menu li {}
+.cabecalho .cabecalho__menu a {}
 
 /*ESTILO DO MENU CONFIGURAÇÃO*/
-.cabecalho .cabecalho__menuConfiguracao {
-}
-.cabecalho .cabecalho__menuConfiguracao ul {
-}
-.cabecalho .cabecalho__menuConfiguracao li {
-}
-.cabecalho .cabecalho__menuConfiguracao a {
-}
+.cabecalho .cabecalho__menuConfiguracao {}
+.cabecalho .cabecalho__menuConfiguracao ul {}
+.cabecalho .cabecalho__menuConfiguracao li {}
+.cabecalho .cabecalho__menuConfiguracao a {}
 
 /*ESTILO DO CONTEÚDO PRINCIPAL*/
 main {
@@ -117,8 +108,7 @@ main {
 .secaoDestaque .secaoDestaque__descricaoDestaque {
   color: white;
 }
-.secaoDestaque .secaoDestaque__descricaoDestaque h1 {
-}
+.secaoDestaque .secaoDestaque__descricaoDestaque h1 {}
 .secaoDestaque .secaoDestaque__descricaoDestaque h1 img {
   width: 100%;
   max-width: 180px;
@@ -128,8 +118,7 @@ main {
   font-size: 0.8rem;
 }
 
-.secaoDestaque .secaoDestaque__navegacaoDestaque {
-}
+.secaoDestaque .secaoDestaque__navegacaoDestaque {}
 .secaoDestaque .secaoDestaque__navegacaoDestaque a {
   font-size: 0.8rem;
   background-color: white;
@@ -167,10 +156,8 @@ main {
 .secaoFilmes .secaoFilmes__listaFilmes li {
   margin-right: 10px;
 }
-.secaoFilmes .secaoFilmes__listaFilmes li figure {
-}
-.secaoFilmes .secaoFilmes__listaFilmes li img {
-}
+.secaoFilmes .secaoFilmes__listaFilmes li figure {}
+.secaoFilmes .secaoFilmes__listaFilmes li img {}
 
 /*ESTILO RODAPÉ*/
 .rodape {
@@ -178,26 +165,21 @@ main {
   margin-top: 30px;
   color: #808080;
 }
-.rodape .rodape_midiasSociais {
-}
+.rodape .rodape_midiasSociais {}
 .rodape .rodape_midiasSociais ul {
   display: flex;
 }
 .rodape .rodape_midiasSociais ul li {
   margin-right: 8px;
 }
-.rodape .rodape_midiasSociais ul a {
-}
-.rodape .rodape_midiasSociais ul img {
-}
+.rodape .rodape_midiasSociais ul a {}
+.rodape .rodape_midiasSociais ul img {}
 
 .rodape .rodape__menuNavegacao {
   margin: 16px;
 }
-.rodape .rodape__menuNavegacao ul {
-}
-.rodape .rodape__menuNavegacao ul li {
-}
+.rodape .rodape__menuNavegacao ul {}
+.rodape .rodape__menuNavegacao ul li {}
 .rodape .rodape__menuNavegacao ul li a {
   color: #808080;
 }
@@ -209,8 +191,7 @@ main {
   display: inline-block;
   margin-bottom: 20px;
 }
-.rodape p {
-}
+.rodape p {}
 
 @media only screen and (min-width: 620px) {
   .secaoDestaque {
